@@ -6,11 +6,22 @@ using System.Threading.Tasks;
 
 namespace Russia
 {
-   public class Moscow
+    public class Moscow
     {
-        public int Population {  get; }
+        public int Population { get; }
 
-        public Moscow(int Population) 
+        public Moscow(int Population)
+        {
+            this.Population = Population;
+        }
+
+        
+    }
+    public class StPetersburg
+    {
+        public int Population { get; }
+
+        public StPetersburg(int Population)
         {
             this.Population = Population;
         }

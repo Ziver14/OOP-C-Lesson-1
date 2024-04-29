@@ -53,6 +53,8 @@ namespace OOP_C__Lesson_1
             var Berlin = new Berlin(3000000);
             var Paris  = new Paris(2000000);
 
+            var StPeterburg = new StPetersburg(1000000);
+
             Console.WriteLine($"Москва,Россия:{Moscow.Population} человек");
             Console.WriteLine($"Берлин,Германия:{Berlin.Population} человек");
             Console.WriteLine($"Париж,Франция:{Paris.Population} человек");

@@ -14,5 +14,17 @@ namespace Germany
         {
             this.Population = Population;
         }
+
+        public class Munchen
+        {
+            public int Population { get; }
+
+            public Munchen(int Population)
+            {
+                this.Population = Population;
+            }
+
+
+        }
     }
 }

@@ -14,5 +14,15 @@ namespace France
         {
             this.Population = Population;
         }
+
+        public class Lion
+        {
+            public int Population { get; }
+
+            public Lion(int Population)
+            {
+                this.Population = Population;
+            }
+        }
     }
 }
